@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4">
+  <sets>
+    <set>
+      <name>GTA</name>
+      <longname>Grand Theft Auto</longname>
+      <settype></settype>
+    </set>
+  </sets>
+  <cards>
+
+    <card>
+      <name>Carl Johnson, Original Gangster</name>
+      <set rarity="mythic">GTA</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost>1RG</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Human Gangster </type>
+        <maintype>Creature</maintype>
+        <pt>*/*</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Carl Johnson’s power and toughness are each equal to the number of Respect counters you have.
+When Carl Johnson enters the battlefield, Respect+. (You gain a respect counter.)
+Whenever one or more Gangsters or Vehicles you control deals combat damage, you may pay {G/W}. If you do, Respect+ and draw a card.</text>
+    </card>
+    <card>
+      <name>Sweet Johnson, Original Gangster</name>
+      <set rarity="mythic">GTA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>1GW</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Human Gangster </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Other Gangsters you control gain +1/+1.
+Whenever you attack a Player or Territory, you may pay {R/G}. If you do, Recruit and draw a card. (Create X 1/1 Human Gangster creature tokens, where X is the number of respect counters you have.)</text>
+    </card>
+    <card>
+      <name>Cesar Vialpando, Original Gangster</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost>1RW</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Human Gangster </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Partner with Kendl Johnson (When this creature enters the battlefield, target player may put Kendl Johnson into their hand from their library, then shuffle.)
+NITRO! – Whenever Cesar Vialpando, Original Gangster crews a Vehicle, that Vehicle gains trample, haste and +1/+1 until end of turn.</text>
+    </card>
+    <card>
+      <name>Kendl Johnson</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>GW</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Creature - Human Advisor </type>
+        <maintype>Creature</maintype>
+        <pt>1/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Partner with Cesar Vialpando, Original Gangster. (When this creature enters the battlefield, target player may put Cesar Vialpando into their hand from their library, then shuffle.)
+Whenever you tap a non-token artifact you control, add one mana of any color. </text>
+    </card>
+    <card>
+      <name>BMX</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Cycling {2}
+BMX can’t be blocked by creatures with toughness 3 or more.
+BMX can’t block.
+Crew 1 </text>
+    </card>
+    <card>
+      <name>Ryder&apos;s Picador</name>
+      <set rarity="uncommon">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{1}, {T}, Sacrifice Ryder’s Picador: Respect+. Draw a card. (You gain a respect counter.)
+Crew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)</text>
+    </card>
+    <card>
+      <name>Cesar&apos;s Savanna</name>
+      <set rarity="uncommon" splitterPath="/Cesar's Savanna.png" >GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>If Cesar’s Savanna becomes blocked, it transforms and defending player gains control of it.
+Crew 2  (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)
+---
+(Back): Flipped Cesar&apos;s Savanna</text>
+      <related attach="transform">Flipped Cesar&apos;s Savanna</related>
+    </card>
+    <card>
+      <name>Flipped Cesar&apos;s Savanna</name>
+      <set rarity="uncommon" splitterPath="/Flipped Cesar's Savanna.png" >GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>2</cmc>
+        <type>Legendary Artifact  - Vehicle </type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, sacrifice Flipped Cesar’s Savanna. It deals 2 damage to each creature you control. 
+---
+(Front): Cesar&apos;s Savanna</text>
+      <related attach="transform">Cesar&apos;s Savanna</related>
+    </card>
+    <card>
+      <name>Video Poker Machine</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{2}: Put a credit counter on Video Poker Machine.
+{T}, Remove a credit counter from Video Poker Machine: Roll two d20s and add their results.
+10-19 | Three Of A Kind – Create a Treasure token.
+20-29 | Four Of A Kind – Create two Treasure tokens.
+30-39 | Straight Flush – Create three Treasure tokens.
+40+ | Royal Flush – Create five Treasure tokens. </text>
+    </card>
+    <card>
+      <name>Crazed Taxi Driver</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Human Citizen </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Crazed Taxi Driver crews Vehicles as though its power were 2 greater.
+Whenever Crazed Taxi Driver crews a Vehicle, that Vehicle gains +2/-1 until end of turn. </text>
+    </card>
+    <card>
+      <name>Madd Dogg, Gangster Rapper</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Human Gangster Bard </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Partner with Madd Dogg’s Rhyme Book. (When this creature enters the battlefield, target player may put Madd Dogg’s Rhyme Book into their hand from their library, then shuffle.)
+Whenever one or more other Gangsters deal combat damage to an opponent or Territory, proliferate. </text>
+    </card>
+    <card>
+      <name>Madd Dogg&apos;s Rhyme Book</name>
+      <set rarity="uncommon">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Madd Dogg’s Rhyme Book enters the battlefield with 3 page counters on it.
+Whenever a legendary Gangster you control enters the battlefield, put a page counter to Madd Dogg’s Rhyme Book.
+{2}, {T}, Remove a page counter from Madd Dogg’s Rhyme Book: Draw a card. </text>
+    </card>
+    <card>
+      <name>Fire In The Hole!</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Suspend 1 2R
+Fire In The Hole! deals 5 damage to each creature and planeswalker.
+Destroy up to one target Artifact.</text>
+    </card>
+    <card>
+      <name>Hydra Jet Fighter</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>5</manacost>
+        <cmc>5</cmc>
+        <type>Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Flying
+{T}: Change the target of target spell or ability that targets only Hydra Jet Fighter. Active only if Hydra Jet Fighter is a creature.
+Whenever Hydra Jet Fighter attacks, choose one –
+• Hydra Jet Fighter deals 5 damage to two random creatures defending player controls.
+• Hydra Jet Fighter deals 4 damage to target creature.
+Crew 4 </text>
+    </card>
+    <card>
+      <name>Respect</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type></type>
+        <maintype></maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>
+
+Place your Respect counters in this area. </text>
+    </card>
+    <card>
+      <name>Sweet&apos;s Girl</name>
+      <set rarity="uncommon" splitterPath="/Sweet's Girl.png" >GTA</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost>R/WR/W</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Enchantment - Mission </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>
+Mission Start – Create three 1/1 Human Gangster creature tokens.
+ ‎
+To Progress – There are three or more progress counters on Sweet’s Girl.
+Whenever a Gangster you control dies, put a progress counter on Sweet’s Girl.
+ ‎
+Mission Passed – Respect+.
+Exile this Mission, then return it to the battlefield transformed under your control.
+---
+(Back): Sweet&apos;s Girlfriend</text>
+      <related attach="transform">Sweet&apos;s Girlfriend</related>
+    </card>
+    <card>
+      <name>Sweet&apos;s Girlfriend</name>
+      <set rarity="uncommon" splitterPath="/Sweet's Girlfriend.png" >GTA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost></manacost>
+        <cmc>2</cmc>
+        <type>Girlfriend Creature - Human </type>
+        <pt>*/*</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Sweet’s Girlfriend’s power and toughness are each equal to the number of respect counters you have.
+---
+(Front): Sweet&apos;s Girl</text>
+      <related attach="transform">Sweet&apos;s Girl</related>
+    </card>
+    <card>
+      <name>Satchel Charges</name>
+      <set rarity="uncommon">GTA</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{1}, {T}: Put a satchel counter on target artifact or creature. Activate only as a sorcery.
+3B, {T}, Sacrifice Satchel Charges: Destroy each permanent with a satchel counter on it.</text>
+    </card>
+    <card>
+      <name>Grove Street Families</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>1G/WG/W</manacost>
+        <cmc>3</cmc>
+        <type>Kindred Instant - Human Gangster </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Until end of turn, token creatures you control enter the battlefield with an additional +1/+1 counter on them.
+Respect+ (You gain a respect counter.)
+Recruit (Create X 1/1 Human Gangster creature tokens, where X is the number of respect counters you have.)</text>
+    </card>
+    <card>
+      <name>Grove Street</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>2GW</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Battle - Territory </type>
+        <maintype>Battle</maintype>
+      <loyalty>5</loyalty>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When Grove Street enters the battlefield,  defending player recruits.
+At the beginning of defending player’s upkeep, they recruit. (Create X 1/1 Human Gangster creature tokens, where X is the number of respect counters you have.)</text>
+    </card>
+    <card>
+      <name>Big Bear, Base Slave</name>
+      <set rarity="rare" splitterPath="/Big Bear, Base Slave.png" >GTA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Creature - Human Gangster </type>
+        <maintype>Creature</maintype>
+        <pt>0/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Defender
+At the beginning of your upkeep, if you control a Territory, transform Big Bear, Base Slave.
+---
+(Back): Big Bear, Free</text>
+      <related attach="transform">Big Bear, Free</related>
+    </card>
+    <card>
+      <name>Big Bear, Free</name>
+      <set rarity="rare" splitterPath="/Big Bear, Free.png" >GTA</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost></manacost>
+        <cmc>2</cmc>
+        <type>Legendary Creature - Human Gangster </type>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Vigilance
+When Big Bear, Free enters the battlefield, search your library for a basic land or battle card, reveal it, put it into your hand, then shuffle.
+---
+(Front): Big Bear, Base Slave</text>
+      <related attach="transform">Big Bear, Base Slave</related>
+    </card>
+    <card>
+      <name>Woozie, The Lucky Mole</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2RR</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Human Gangster </type>
+        <maintype>Creature</maintype>
+        <pt>5/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Woozie, The Lucky Mole can’t block.
+Whenever Woozie, The Lucky Mole becomes blocked, flip a coin. If you win the flip, Woozie, The Lucky Mole gains indestructible until end of turn.
+Whenever Woozie, The Lucky Mole deals combat damage, exile the top card of your library. Until your next end step, you may play that card.</text>
+    </card>
+    <card>
+      <name>Mountain</name>
+      <set rarity="">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Basic Land - Mountain </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Island</name>
+      <set rarity="">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Basic Land - Island </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Forest</name>
+      <set rarity="">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Basic Land - Forest </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Plains</name>
+      <set rarity="">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Basic Land - Plains </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Swamp</name>
+      <set rarity="">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Basic Land - Swamp </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Temple of the False God</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>{T}: Add CC. Activate only if you control five or more lands. </text>
+    </card>
+    <card>
+      <name>Headshot</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>G</manacost>
+        <cmc>1</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target creature you control deals damage equal to its power to target creature or planeswalker you don’t control.</text>
+    </card>
+    <card>
+      <name>Blessed</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>M</colors>
+        <manacost>W // B</manacost>
+        <cmc>1</cmc>
+        <type>Instant // Instant</type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target creature gains +0/+2 until end of turn.
+--- 
+Target creature gains 
+-0/-2 until end of turn.</text>
+    </card>
+    <card>
+      <name>Farewell, My Love</name>
+      <set rarity="uncommon" splitterPath="/Farewell, My Love.png" >GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2RR</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Enchantment - Mission </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>
+Mission Start – Create a 4/3 colorless Vehicle artifact token named ZR-350 with haste, trample, and crew 2.
+ ‎
+To Progress – There are two or more progress counters on Farewell, My Love.... Whenever a Vehicle you control deals combat damage to an opponent, put a progress counter on Farewell, My Love....
+ ‎
+Mission Passed – Respect+. Exile this Mission, then return it to the battlefield transformed under your control.
+---
+(Back): Doherty Garage</text>
+      <related attach="transform">Doherty Garage</related>
+    </card>
+    <card>
+      <name>Doherty Garage</name>
+      <set rarity="uncommon" splitterPath="/Doherty Garage.png" >GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>4</cmc>
+        <type>Legendary Artifact Land</type>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>{T}: Add CC.
+CC, {T}: Regenerate target Vehicle. (The next time this permanent would be destroyed this turn, it isn’t. Instead tap it.)
+---
+(Front): Farewell, My Love</text>
+      <related attach="transform">Farewell, My Love</related>
+    </card>
+    <card>
+      <name>Truth, The Enlightened</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>1G/WG/W</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Human </type>
+        <maintype>Creature</maintype>
+        <pt>0/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Defender
+GG, {T}: Target creature gains flying until end of turn.
+WWW, {T}: You and target opponent each draw 2 cards and gain 3 life.</text>
+    </card>
+    <card>
+      <name>Call For Backup</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>WU</colors>
+        <manacost>2WU</manacost>
+        <cmc>4</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>For each opponent, evaluate the amount of Curses attached to them named Wanted Star:
+1–2 | Create a 4/2 colorless Vehicle artifact token named HPV-1000 with crew 2 and “HPV-1000 can’t block”.
+3–5 | Create a 6/2 colorless Vehicle artifact token named Police Maverick with flying and crew 2.
+6+ | Create an 8/8 colorless Vehicle artifact token named Rhino with indestructible, trample and crew 2.</text>
+    </card>
+    <card>
+      <name>Rhino Tank</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>6</manacost>
+        <cmc>6</cmc>
+        <type>Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Trample, indestructible
+Crew 2</text>
+    </card>
+    <card>
+      <name>Closed Bridge</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Whenever an opponent attacks you, create a Wanted Star token attached to that player.</text>
+    </card>
+    <card>
+      <name>Carl Johnson, Defintive Gangster</name>
+      <set rarity="mythic">GTA</set>
+      <prop>
+        <colors>WRG</colors>
+        <manacost>1RGW</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Human Gangster </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Bands with other Gangster creatures. (Any Gangster creatures can attack in a band as long as at least one has “bands with other Gangster creatures.” Bands are blocked as a group. If at least two Gangster creatures you control, one of which has “bands with other Gangster creatures,” are blocking or being blocked by the same creature, you divide that creature’s combat damage, not its controller, among any of the creatures it’s being blocked by or is blocking.)</text>
+    </card>
+    <card>
+      <name>Denise Robinson</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>6GG</manacost>
+        <cmc>8</cmc>
+        <type>Girlfriend Creature - Human Gangster </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Affinity for Gangster creatures.
+When Denise Robinson enters the battlefield or attacks, recruit.
+Drive By – Whenever a Gangster creature you control crews a Vehicle, Denise Robinson may deal damage equal to her power to target creature.</text>
+    </card>
+    <card>
+      <name>A Home In The Hills</name>
+      <set rarity="uncommon" splitterPath="/A Home In The Hills.png" >GTA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>2GW</manacost>
+        <cmc>4</cmc>
+        <type>Enchantment - Mission </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>
+Mission Start – Creatures you control gain flying until end of turn.
+ ‎
+To Progress – Your opponents were dealt 10 or more combat damage this turn by sources you control.
+ ‎
+Mission Passed – Respect+.
+Exile this Mission, then return it to the battlefield transformed under your control.
+---
+(Back): Madd Dogg&apos;s Mansion</text>
+      <related attach="transform">Madd Dogg&apos;s Mansion</related>
+    </card>
+    <card>
+      <name>Madd Dogg&apos;s Mansion</name>
+      <set rarity="uncommon" splitterPath="/Madd Dogg's Mansion.png" >GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>4</cmc>
+        <type>Legendary Artifact Land</type>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>When Madd Dogg’s Mansion enters the battlefield, you gain 2 life and draw two cards.
+{T}: Add CC.
+---
+(Front): A Home In The Hills</text>
+      <related attach="transform">A Home In The Hills</related>
+    </card>
+    <card>
+      <name>Glen Park</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>UB</colors>
+        <manacost>UB</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Battle - Territory </type>
+        <maintype>Battle</maintype>
+      <loyalty>5</loyalty>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>At the beginning of defending player’s upkeep, they create a Drug Token.</text>
+    </card>
+    <card>
+      <name>Unique Stunt Jump</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Vehicles you control gain flying until end of turn. Draw a card.</text>
+    </card>
+    <card>
+      <name>Command Tower</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>{T}: Add one mana of any color in your commander’s color identity.</text>
+    </card>
+    <card>
+      <name>Spire Garden</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Spire Garden enters the battlefield tapped unless you have two or more opponents.
+{T}: Add {R} or {G}.</text>
+    </card>
+    <card>
+      <name>Bountiful Promenade</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Bountiful Promenade enters the battlefield tapped unless you have two or more opponents.
+{T}: Add {G} or {W}.</text>
+    </card>
+    <card>
+      <name>Morphic Pool</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Morphic Pool enters the battlefield tapped unless you have two or more opponents.
+{T}: Add {U} or {B}.</text>
+    </card>
+    <card>
+      <name>Sea of Clouds</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Sea of Clouds enters the battlefield tapped unless you have two or more opponents.
+{T}: Add {W} or {U}.</text>
+    </card>
+    <card>
+      <name>Spectator Seating</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Spectator Seating enters the battlefield tapped unless you have two or more opponents.
+{T}: Add {R} or {W}.</text>
+    </card>
+    <card>
+      <name>Vault of Champions</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Vault of Champions enters the battlefield tapped unless you have two or more opponents.
+{T}: Add {W} or {B}.</text>
+    </card>
+    <card>
+      <name>Arcane Signet</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{T}: Add one mana of any color in your commander’s color identity.</text>
+    </card>
+    <card>
+      <name>Arcane Signet</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{T}: Add one mana of any color in your commander’s color identity.</text>
+    </card>
+    <card>
+      <name>Sol Ring</name>
+      <set rarity="uncommon">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{T}: Add CC.</text>
+    </card>
+    <card>
+      <name>Rootbound Crag</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.
+{T}: Add {R} or {G}.</text>
+    </card>
+    <card>
+      <name>Sunpetal Grove</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.
+{T}: Add {G} or {W}.</text>
+    </card>
+    <card>
+      <name>Glacial Fortress</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.
+{T}: Add {W} or {U}.</text>
+    </card>
+    <card>
+      <name>Drowned Catacomb</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.
+{T}: Add {U} or {B}.</text>
+    </card>
+    <card>
+      <name>Isolated Chapel</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Isolated Chapel enters the battlefield tapped unless you control a Plains or a Swamp.
+{T}: Add {W} or {B}.</text>
+    </card>
+    <card>
+      <name>Clifftop Retreat</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Clifftop Retreat enters the battlefield tapped unless you control a Mountain or a Plains.
+{T}: Add {R} or {W}.</text>
+    </card>
+    <card>
+      <name>Unclaimed Territory</name>
+      <set rarity="uncommon">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>As Unclaimed Territory enters the battlefield, choose a creature type.
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.</text>
+    </card>
+    <card>
+      <name>Michelle Cannes</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>4RR</manacost>
+        <cmc>6</cmc>
+        <type>Girlfriend Creature - Human Pilot </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Affinity for Vehicles.
+When Michelle Cannes enters the battlefield, create a 6/3 colorless Vehicle artifact token named Monster Truck with trample, protection from Vehicles and crew 2.
+Whenever one or more Vehicles you control attack, draw a card.</text>
+    </card>
+    <card>
+      <name>Katie Zhan</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>6WW</manacost>
+        <cmc>8</cmc>
+        <type>Girlfriend Creature - Human Cleric </type>
+        <maintype>Creature</maintype>
+        <pt>1/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>This spell costs {X} less to cast, where X is the greatest toughness among creatures you control.
+Other non-Vehicle creatures you control gain +0/+3.
+Whenever another nontoken, non-Vehicle creature you own dies, you may return it to your hand.</text>
+    </card>
+    <card>
+      <name>Millie Perkins</name>
+      <set rarity="rare" splitterPath="/Millie Perkins.png" >GTA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>6WW</manacost>
+        <cmc>8</cmc>
+        <type>Girlfriend Creature - Human  </type>
+        <maintype>Creature</maintype>
+        <pt>1/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>This spell costs {X} less to cast, where X is the greatest power among creatures you control.
+At the beginning of your upkeep, roll a d20. Create Treasure tokens equal to the result, transform Millie Perkins.
+---
+(Back): Master&apos;s Servant</text>
+      <related attach="transform">Master&apos;s Servant</related>
+    </card>
+    <card>
+      <name>Master&apos;s Servant</name>
+      <set rarity="rare" splitterPath="/Master's Servant.png" >GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost></manacost>
+        <cmc>8</cmc>
+        <type>Girlfriend Creature - Human </type>
+        <pt>*/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Master’s Servant power is equal to the highest power among creatures you control.
+---
+(Front): Millie Perkins</text>
+      <related attach="transform">Millie Perkins</related>
+    </card>
+    <card>
+      <name>Helena Wankstein</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>6RR</manacost>
+        <cmc>8</cmc>
+        <type>Girlfriend Creature - Human  </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>This spell costs {X} less to cast, where X is your devotion to red.
+Whenever you attack, target creature you control gain +X/+0, where X is your devotion to red.</text>
+    </card>
+    <card>
+      <name>Chinatown</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost>1RG</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Battle - Territory </type>
+        <maintype>Battle</maintype>
+      <loyalty>4</loyalty>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When Chinatown enters the battlefield, defending player recruits.
+Creatures defending player controls have menace. (That creature can’t be blocked except by two or more creatures.)</text>
+    </card>
+    <card>
+      <name>Emmet, Weapons Tutor</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>3R</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Human Artificer </type>
+        <maintype>Creature</maintype>
+        <pt>4/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Emmet, Weapons Tutor enters the battlefield, you may search your library for an Equipment card, put it onto the battlefield, then shuffle.</text>
+    </card>
+    <card>
+      <name>Y&apos;all Get Heated!</name>
+      <set rarity="uncommon">GTA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>1GW</manacost>
+        <cmc>3</cmc>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Put a +1/+1 counter on each of up to three target creatures.</text>
+    </card>
+    <card>
+      <name>Now I Kill You!</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1RR</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Now I Kill You! deals 5 damage to target creature.
+Create a Treasure token.</text>
+    </card>
+    <card>
+      <name>B Dup, Drug Pusher</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>UB</colors>
+        <manacost>2U/BU/B</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Human Gangster </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When B Dup, Drug Pusher enters the battlefield, gain control of target creature with power less than or equal to the number of Drugs you control.</text>
+    </card>
+    <card>
+      <name>Grove 4 L-I-F-E</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>GW</manacost>
+        <cmc>2</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Recruit. (Create X 1/1 Human Gangster creature tokens, where X is the number of respect counters you have.)
+Flashback 1GW (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+    </card>
+    <card>
+      <name>Number 9, Large</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>4</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Artifact - Food </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Partner with Big Smoke (When this permanent enters the battlefield, target player may put Big Smoke into their hand from their library, then shuffle.)
+Whenever you sacrifice Number {9}, Large, up to four target creatures you control gain a +1/+1 counter.
+{2}, {T}, Sacrifice Number {9}, Large: You gain life equal to your respect.</text>
+    </card>
+    <card>
+      <name>El Corona</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Battle - Territory </type>
+        <maintype>Battle</maintype>
+      <loyalty>4</loyalty>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When El Corona enters the battlefield, look at the top six cards of your library. You may reveal a Vehicle card from among them and add it to your hand.
+Whenever a Vehicle defending player controls is put into a graveyard from the battlefield, they may pay 2. If they do, return it to its owner’s hand.</text>
+    </card>
+    <card>
+      <name>I ain&apos;t runnin&apos; out on my brother!</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>If you control a commander, you may cast this spell without paying its mana cost.
+Creatures you control gain indestructible until end of turn.</text>
+    </card>
+    <card>
+      <name>Los Santos Riot</name>
+      <set rarity="uncommon">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2RR</manacost>
+        <cmc>4</cmc>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Vanishing 2 (This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
+Creatures have riot. (That creature enters the battlefield with your choice of a +1/+1 counter or haste.)
+All creatures are goaded.</text>
+    </card>
+    <card>
+      <name>The Strip</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Battle - Territory </type>
+        <maintype>Battle</maintype>
+      <loyalty>4</loyalty>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When The Strip enters the battlefield, create a Treasure token.
+At the beginning of defending player’s upkeep, they create a Treasure token.</text>
+    </card>
+    <card>
+      <name>Santa Maria Beach</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Battle - Territory </type>
+        <maintype>Battle</maintype>
+      <loyalty>4</loyalty>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>At the beginning of the defending player’s end step, they may untap up to two target creatures.</text>
+    </card>
+    <card>
+      <name>Grove 4 Life</name>
+      <set rarity="uncommon" splitterPath="/Grove 4 Life.png" >GTA</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost>2RG</manacost>
+        <cmc>4</cmc>
+        <type>Enchantment - Mission </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>
+Mission Start – When Grove 4 Life enters the battlefield, you may search your library for a Territory card, put it onto the battlefield, then shuffle.
+ ‎
+To Progress – You control two or more territories.
+ ‎
+Mission Passed – Respect+.
+Exile this Mission, then return it to the battlefield transformed under your control.
+---
+(Back): Grove Renewed Territories</text>
+      <related attach="transform">Grove Renewed Territories</related>
+    </card>
+    <card>
+      <name>Grove Renewed Territories</name>
+      <set rarity="uncommon" splitterPath="/Grove Renewed Territories.png" >GTA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost></manacost>
+        <cmc>4</cmc>
+        <type>Legendary Land</type>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>{T}: Add GW.
+GW, {T}: Recruit. (Create X 1/1 Human Gangster creature tokens, where X is the number of respect counters you have.)
+---
+(Front): Grove 4 Life</text>
+      <related attach="transform">Grove 4 Life</related>
+    </card>
+    <card>
+      <name>Unlucky Witness</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>R</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Human Citizen </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Unlucky Witness dies, exile the top two cards of your library. Until your next end step, you may play one of those cards.</text>
+    </card>
+    <card>
+      <name>Dwaine and Jethro</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>1GW</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Human </type>
+        <maintype>Creature</maintype>
+        <pt>1/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Vehicles you control gain +0/+2 as long as Dwaine and Jethro is untapped.
+{G/W}, {T}: Return target Vehicle card from your graveyard to your hand.</text>
+    </card>
+    <card>
+      <name>NRG-500</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Haste
+NRG-500 can’t be blocked by creatures with toughness 3 or more.
+NRG-500 can’t block.
+Crew 1</text>
+    </card>
+    <card>
+      <name>Sweet&apos;s Greenwood</name>
+      <set rarity="uncommon">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When Sweet’s Greenwood enters the battlefield, search your library for a Territory card, reveal it, put it into your hand, then shuffle.
+When Sweet’s Greenwood attacks, if it was crewed by a Gangster creature, it gains +3/+3 and trample.
+Crew 2</text>
+    </card>
+    <card>
+      <name>Dank Alleyway</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Dank Alleyway enters the battlefield tapped unless you control a Territory.
+{T}: Add {U} or {B}.</text>
+    </card>
+    <card>
+      <name>Contested Lighthouse</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Contested Lighthouse enters the battlefield tapped unless you control a Territory.
+{T}: Add {W} or {U}.</text>
+    </card>
+    <card>
+      <name>Hidden Garden</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Hidden Garden enters the battlefield tapped unless you control a Territory.
+{T}: Add {G} or {W}.</text>
+    </card>
+    <card>
+      <name>Concrete Jungle</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Concrete Jungle enters the battlefield tapped unless you control a Territory.
+{T}: Add {R} or {G}.</text>
+    </card>
+    <card>
+      <name>Desert Highway</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Desert Highway enters the battlefield tapped unless you control a Territory.
+{T}: Add {R} or {W}.</text>
+    </card>
+    <card>
+      <name>Airplane Graveyard</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Airplane Graveyard enters the battlefield tapped unless you control a Territory.
+{T}: Add {W} or {B}.</text>
+    </card>
+    <card>
+      <name>Tony The Parrot</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>G</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>0/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+{T}: Add one mana of any color.</text>
+    </card>
+    <card>
+      <name>Zero, Electronics Guy</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost>3RG</manacost>
+        <cmc>5</cmc>
+        <type>Legendary Creature - Human Artificer  </type>
+        <maintype>Creature</maintype>
+        <pt>0/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever you attack, you may create two tapped and attacking tokens that are copies of target Vehicle, except they’re Radio Controlled artifact creatures, they aren’t legendary, and their base power is half the target’s power and their base toughness is half the target’s toughness. Round up each time.
+When Zero leaves the battlefield, exile all Radio Controlled tokens you control.</text>
+    </card>
+    <card>
+      <name>Cheetah</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>4</manacost>
+        <cmc>4</cmc>
+        <type>Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Trample, haste, vigilance
+Crew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)</text>
+    </card>
+    <card>
+      <name>Combine Harvester</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Trample
+Whenever Combine Harvester attacks, add GW. Until end of turn, you don’t lose this mana as steps and phases end.
+Crew 2</text>
+    </card>
+    <card>
+      <name>Guppy, Triad Deputy</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2RR</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Human Gangster </type>
+        <maintype>Creature</maintype>
+        <pt>2/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever one or more other Gangsters you control deals combat damage, exile the top card of your library. Until your next end step, you may play that card.
+{R/W}, {T}: Remove another Gangster creature you control from combat.</text>
+    </card>
+    <card>
+      <name>Varrios Los Aztecas</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost>1R/WR/W</manacost>
+        <cmc>3</cmc>
+        <type>Kindred Instant - Human Gangster </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Until end of turn, token creatures you control that enter the battlefield gain “Whenever this creature crews a Vehicle, that Vehicle gains +1/+1 until end of turn.”
+Respect+ (You gain a respect counter.)
+Recruit (Create X 1/1 Human Gangster creature tokens, where X is the number of respect counters you have.)</text>
+    </card>
+    <card>
+      <name>San Fierro Triads</name>
+      <set rarity="common">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1RR</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Kindred Instant - Human Gangster </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Until end of turn, token creatures you control that enter the battlefield gain “When this creature deals combat damage, exile the top card of your library. You may play that card until the end of your next turn.”
+Respect+ (You gain a respect counter.)
+Recruit (Create X 1/1 Human Gangster creature tokens, where X is the number of respect counters you have.)</text>
+    </card>
+    <card>
+      <name>Learning To Fly</name>
+      <set rarity="uncommon" splitterPath="/Learning To Fly.png" >GTA</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost>2RW</manacost>
+        <cmc>4</cmc>
+        <type>Enchantment - Mission </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>
+Mission Start – Create a 5/2 colorless Vehicle artifact token named Rustler with flying, “when this vehicle attacks, it deals 2 damage to target creature”, and crew 4.
+ ‎
+To Progress – There are three or more progress counters on Learning To Fly.
+Whenever you attack with a Vehicle with Flying, put a progress counter on Learning To Fly.
+ ‎
+Mission Passed – Respect+. Exile this Mission, then return it to the battlefield transformed under your control.
+---
+(Back): Verdant Meadows Airfield</text>
+      <related attach="transform">Verdant Meadows Airfield</related>
+    </card>
+    <card>
+      <name>Verdant Meadows Airfield</name>
+      <set rarity="uncommon" splitterPath="/Verdant Meadows Airfield.png" >GTA</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost></manacost>
+        <cmc>4</cmc>
+        <type>Legendary Artifact Land</type>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>{T}: Add RW.
+{1}, {T}: Flying Vehicles you control gain +1/+1 and vigilance until end of turn.
+---
+(Front): Learning To Fly</text>
+      <related attach="transform">Learning To Fly</related>
+    </card>
+    <card>
+      <name>Hazer, Original Gangster</name>
+      <set rarity="rare" splitterPath="/Hazer, Original Gangster.png" >GTA</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost>1RW</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Human Gangster </type>
+        <maintype>Creature</maintype>
+        <pt>3/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Haste
+Hazer, Original Gangster attacks each combat if able.
+When Hazer, Original Gangster dies, return it to the battlefield transformed under your control.
+---
+(Back): Hazer, Martyr</text>
+      <related attach="transform">Hazer, Martyr</related>
+    </card>
+    <card>
+      <name>Hazer, Martyr</name>
+      <set rarity="rare" splitterPath="/Hazer, Martyr.png" >GTA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost></manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Human Martyr </type>
+        <pt>0/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Hazer, Martyr can’t attack or block.
+Other Gangster creatures you control gain +1/+1.
+---
+(Front): Hazer, Original Gangster</text>
+      <related attach="transform">Hazer, Original Gangster</related>
+    </card>
+    <card>
+      <name>Ken Rosenberg</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1WW</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Human Advisor </type>
+        <maintype>Creature</maintype>
+        <pt>0/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{T}: Starting with you, each player votes for expansion, consolidation or pays {5} to end the voting and create a Treasure token and draw a card. If expansion gets more votes, each player draws a card. If consolidation gets more votes or the vote is tied, each player creates a Treasure token.</text>
+    </card>
+    <card>
+      <name>Boxing Ring</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature enters the battlefield under your control, it fights up to one target creature you don’t control with the same mana value.
+{T}: Create a Treasure token. Activate only if you control a creature that fought this turn.</text>
+    </card>
+    <card>
+      <name>Chromatic Lantern</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Lands you control have “{T}: Add one mana of any color.”
+{T}: Add one mana of any color.</text>
+    </card>
+    <card>
+      <name>Officer Tenpenny</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>WU</colors>
+        <manacost>1WU</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Human Cop </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Cops you control may attack as though they didn’t have “This creature can only attack players enchanted with Wanted Star”.
+Whenever you attack, you may pay {U/B}. If you do, target Gangster or Cop fights another target Gangster or Cop. If one or more dies, draw a card and Officer Tenpenny gains two +1/+1 counters.</text>
+    </card>
+    <card>
+      <name>Big Smoke, Orignal Gangster</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>WB</colors>
+        <manacost>1WB</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Human Gangster </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever you attack, you may sacrifice a Food or Drug token. If you do Big Smoke, Orignal Gangster gains +X/+X, where X is the number of Respect counters you have.
+{T}, {U/B}, sacrifice a Food or Drug token: Recruit. (Create X 1/1 Human Gangster creature tokens, where X is the number of respect counters you have.)</text>
+    </card>
+    <card>
+      <name>Blasphemous Act</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>8R</manacost>
+        <cmc>9</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>This spell costs {1} less to cast for each creature on the battlefield.
+Blasphemous Act deals 13 damage to each creature.</text>
+    </card>
+    <card>
+      <name>Smuggler&apos;s Copter</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Flying
+Whenever Smuggler’s Copter attacks or blocks, you may draw a card. If you do, discard a card.
+Crew 1 (Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)</text>
+    </card>
+    <card>
+      <name>Heroic Intervention</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Permanents you control gain hexproof and indestructible until end of turn.</text>
+    </card>
+    <card>
+      <name>Ganton</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost>1RG</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Battle - Territory </type>
+        <maintype>Battle</maintype>
+      <loyalty>3</loyalty>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Creatures defending player controls gain +1/+1.
+Gangster creature defending player controls gain +1/+1.</text>
+    </card>
+    <card>
+      <name>Coveted Jewel</name>
+      <set rarity="rare">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>6</manacost>
+        <cmc>6</cmc>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When Coveted Jewel enters the battlefield, draw three cards.
+{T}: Add three mana of any one color.
+Whenever one or more creatures an opponent controls attack you and aren’t blocked, that player draws three cards and gains control of Coveted Jewel. Untap it.</text>
+    </card>
+    <card>
+      <name>Fellwar Stone</name>
+      <set rarity="uncommon">GTA</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{T}: Add one mana of any color that a land an opponent controls could produce.</text>
+    </card>
+
+    <!-->Tokens</-->
+
+    <card>
+      <name>Drug</name>
+      <set>GTA</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{T}, Pay 2 life, Sacrifice this artifact: Exile the top two cards of your library. Until your next end step, you may play one of those cards.</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Rhino</name>
+      <set>GTA</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Trample, indestructible
+Crew 2</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>HPV-1000</name>
+      <set>GTA</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>HPV-1000 can’t block.
+Crew 2</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Police Maverick</name>
+      <set>GTA</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Flying
+Crew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Wanted Star</name>
+      <set>GTA</set>
+      <prop>
+        <colors></colors>
+        <type>Token Enchantment - Aura </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Enchant player.
+At the beginning of enchanted player’s upkeep, they may pay {3}. If they do, sacrifice this enchantment.
+At the beginning of enchanted player’s combat, you create a 2/2 blue and white Cop creature token with vigilance and ‘This creature can only attack players enchanted with Wanted Star’.</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Monster Truck</name>
+      <set>GTA</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Trample, protection from Vehicles (This creature can’t be blocked, targeted or dealt damage by Vehicles.)
+Crew 2</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Treasure</name>
+      <set>GTA</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Human Gangster</name>
+      <set>GTA</set>
+      <prop>
+        <colors></colors>
+        <type>Token Creature - Human Gangster </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>ZR-350</name>
+      <set>GTA</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Haste, trample
+Crew 2</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Rustler</name>
+      <set>GTA</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Flying
+When this vehicle attacks, it deals 2 damage to target creature.
+Crew 4</text>
+      <token>1</token>
+    </card>
+
+  </cards>
+</cockatrice_carddatabase>
