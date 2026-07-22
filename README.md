@@ -1,4 +1,4 @@
-# Fantasy fan mode Grand Theft Auto set for Magic The Gathering
+# Fantasy fan made Grand Theft Auto set for Magic The Gathering
 Everyone loves Universes beyond right? What if there was more ill-fitting series for it!
 
 This is a fan made project, initialy focusing on San Andreas universe commander decks, made within the MagicSetEditor program.
